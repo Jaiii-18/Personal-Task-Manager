@@ -97,7 +97,7 @@
         </div>
     </div>
 
-    <a href="{{ route('tasks.edit', $task) }}" class="btn">
+    <a href="{{ config('app.url') }}/tasks/{{ $task->id }}/edit" class="btn">
         Edit Task
     </a>
 
