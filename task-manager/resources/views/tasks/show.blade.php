@@ -101,7 +101,7 @@
         Edit Task
     </a>
 
-    <a href="{{ route('tasks.index') }}" class="back">
+    <a href="/tasks" class="back">
         Back to Tasks
     </a>
 
