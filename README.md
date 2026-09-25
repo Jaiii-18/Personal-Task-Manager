@@ -4,7 +4,7 @@ Student Name: ENRIQUEZ, JAIZAH MAE S.
 
 Course & Year: BSIT 2 - SECTION 9
 
-Database Used: MYSQL
+Database Used: SQLITE
 
 Features:
 - Add Task
