@@ -30,7 +30,7 @@ class TaskController extends Controller
 
         Task::create($request->all());
 
-        return redirect('/tasks')
+        return redirect(config('app.url') . '/tasks')
             ->with('success', 'Task added successfully!');
     }
 
@@ -55,15 +55,15 @@ class TaskController extends Controller
 
         $task->update($request->all());
 
-        return redirect('/tasks')
-            ->with('success', 'Task updated successfully!');
+        return redirect(config('app.url') . '/tasks')
+    ->with('success', 'Task added successfully!');
     }
 
     public function destroy(Task $task)
     {
         $task->delete();
 
-        return redirect('/tasks')
+return redirect(config('app.url') . '/tasks')
     ->with('success', 'Task added successfully!');
     }
 }
