@@ -56,7 +56,7 @@ class TaskController extends Controller
         $task->update($request->all());
 
         return redirect(config('app.url') . '/tasks')
-    ->with('success', 'Task added successfully!');
+    ->with('success', 'Task updated successfully!');
     }
 
     public function destroy(Task $task)
@@ -64,6 +64,6 @@ class TaskController extends Controller
         $task->delete();
 
 return redirect(config('app.url') . '/tasks')
-    ->with('success', 'Task added successfully!');
+    ->with('success', 'Task deleted successfully!');
     }
 }
