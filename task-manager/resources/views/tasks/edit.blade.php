@@ -144,9 +144,9 @@
             Update Task
         </button>
 
-        <a href="{{ route('tasks.index') }}" class="cancel">
-            Cancel
-        </a>
+        <a href="{{ config('app.url') }}/tasks" class="cancel">
+        Cancel
+         </a>
 
     </form>
 
