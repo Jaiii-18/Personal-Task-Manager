@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f4f6f8;
+            background: #fff0f6;
             margin: 0;
             padding: 40px;
         }
@@ -32,11 +32,11 @@
 
         h1 {
             margin: 0;
-            color: #333;
+            color: #d63384;
         }
 
         .btn {
-            background: #2563eb;
+            background: #d63384;
             color: white;
             padding: 10px 16px;
             text-decoration: none;
@@ -44,7 +44,7 @@
         }
 
         .btn:hover {
-            background: #1d4ed8;
+            background: #b02a6b;
         }
 
         .success {
@@ -67,7 +67,7 @@
         }
 
         th {
-            background: #f1f5f9;
+            background: #d63384;
         }
 
         .status {
