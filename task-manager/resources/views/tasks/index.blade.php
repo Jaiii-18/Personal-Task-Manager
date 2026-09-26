@@ -155,9 +155,7 @@
                                 View
                             </a>
 
-                            <a href="/tasks/{{ $task->id }}/edit">
-                                Edit
-                            </a>
+                            <a href="{{ config('app.url') }}/tasks/{{ $task->id }}/edit">Edit</a>
 
                             <form
                                 action="/tasks/{{ $task->id }}"
