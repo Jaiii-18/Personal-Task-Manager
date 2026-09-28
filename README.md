@@ -12,3 +12,18 @@ Features:
 - Edit Task
 - Delete Task
 - Update Status
+
+
+
+
+
+## UI Screenshots
+
+### Add New Task
+![Add New Task](task-manager/public/screenshots/add-task.PNG)
+
+### Task Added
+![Task Added](task-manager/public/screenshots/task-added.PNG)
+
+### Task Deleted
+![Task Deleted](task-manager/public/screenshots/task-deleted.PNG)
